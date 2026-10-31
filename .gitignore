@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# 本地数据（机器人运行时生成，切勿提交）
+*.db
+*.sqlite
+*.sqlite3
+*.json
+*.jsonl
+*.log
+
+# 运行时生成的图片
+*.png
+*.jpg
+*.jpeg
+
+# 密钥与环境
+.env
+.env.*
+*.key
+credentials*.txt
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
